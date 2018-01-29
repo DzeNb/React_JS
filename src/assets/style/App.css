@@ -25,6 +25,15 @@
 .nav {
   display: flex;
 }
+
+.nav a {
+  margin-right: 20px; 
+}
+
+.nav a:last-child {
+  margin-right: 0; 
+}
+
 .nav .item {
   margin-left: 10px;
   color: #fff;
@@ -39,6 +48,22 @@
 
 .App-intro {
   font-size: large;
+}
+
+button{
+  width: 150px;
+  height:50px;
+  border-radius: 4px;
+  margin:50px;
+  font-size: 20px;
+}
+.on{
+  color:rgb(224, 43, 43);
+  background-color: rgb(17, 15, 15);
+}
+.off{
+  color:rgb(40, 236, 105);
+  background-color: rgb(94, 75, 163);
 }
 
 @keyframes App-logo-spin {

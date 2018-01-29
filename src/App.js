@@ -6,6 +6,7 @@ import Header from './components/Header';
 import HomePage from "./containers/HomePage/index";
 import About from "./containers/About/index";
 
+
 class App extends Component {
   render() {
     const navList = [
